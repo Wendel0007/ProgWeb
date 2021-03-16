@@ -3,8 +3,14 @@
   <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8" />
-    <meta name="author" content="Wendel Mariano - Aluno de Sistemas de Informaçao" />
-    <meta name="description" content="Site Atividade - Aula de Programaçao Web - Sistemas de Imformaçao/IFSC" />
+    <meta
+      name="author"
+      content="Wendel Mariano - Aluno de Sistemas de Informaçao"
+    />
+    <meta
+      name="description"
+      content="Site Atividade - Aula de Programaçao Web - Sistemas de Imformaçao/IFSC"
+    />
     <meta name="rating" content="general" />
     <meta
       name="viewport"
@@ -24,26 +30,35 @@
   </head>
   <body>
     <header id="topo">
-      <nav class="navbar-justify-content-center navbar-expand-lg navbar-light bg-light fixed-top py-3 shadow p-3 mb-5 bg-white">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 shadow p-3 mb-5 bg-white"
+        id="mainNav">
+        <div class="container">
+        <button
+        class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#section1">Links Musicas 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section2">Links Musicas 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section3">Guia Calouros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section4">Tabela Estranha</a>
-          </li>
-        </ul>
-      </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <a class="navbar-brand" href="#topo"><img width="50px" src="http://bit.ly/logo_ifsc" alt="Logo do Instituto Federal de Santa Catarina"> Site Atividade 2 </a>
+          
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Links Musicas 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Links Musicas 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Guia Calouros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">Tabela Estranha</a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <div class="container">
         <div class="row center-block text-left">
@@ -134,6 +149,7 @@
         </div>
       </div>
     </section>
+    <!-- Essa Section abaixo, tive problemas para posicionar, mesmo com o bootstrap a lista <ol> fica colada a esquerda -->
     <section class="sectionAjust" id="section2">
       <div class="container">
         <div class="row text-left">
@@ -183,7 +199,7 @@
                 target="_blank"
                 >Link</a
               >
-              | Musica
+              | VMZ - Eu Sou Zetsu
             </li>
           </ol>
         </div>
@@ -230,17 +246,19 @@
             <h3><strong>Links</strong></h3>
             <br />
             <li>
-              <a href="http://cacador.ifsc.edu.br"
+              <a href="http://cacador.ifsc.edu.br" target="_blank"
                 >http://cacador.ifsc.edu.br</a
               >
             </li>
             <li>
-              <a href="http://www.ifsc.edu.br/oportunidades"
+              <a href="http://www.ifsc.edu.br/oportunidades" target="_blank"
                 >http://www.ifsc.edu.br/oportunidades</a
               >
             </li>
             <li>
-              <a href="http://www.ifsc.edu.br/assistencia-estudantil"
+              <a
+                href="http://www.ifsc.edu.br/assistencia-estudantil"
+                target="_blank"
                 >http://www.ifsc.edu.br/assistencia-estudantil</a
               >
             </li>
@@ -290,7 +308,15 @@
     <footer>
       <div class="container py-5">
         <div class="small text-center">
-          Copyright © 2021 (Não tem hahaha) - Por: Wendel Mariano<br><br>
+          Foi utilizado as ferramentas:
+          <a href="https://getbootstrap.com.br/" target="_blank"
+            >Bootstrap (v4.1)</a
+          >,
+          <a href="https://github.com/Wendel0007" target="_blank">Github</a> e
+          <a href="https://vercel.com/wendel0007" target="_blank">Vercel</a>.
+        </div>
+        <div class="small text-center">
+          Copyright © 2021 (Não tem hahaha) - Por: Wendel Mariano<br /><br />
           <a class="btn btn-primary" href="#topo">Voltar ao topo</a>
         </div>
       </div>
