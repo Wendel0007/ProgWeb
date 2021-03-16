@@ -57,7 +57,7 @@ footer a{
     header{
         background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
         background-repeat: no-repeat;
-        background-position: left;
+        background-position: center;
         background-attachment: scroll;
         background-size: cover;
         height: 90vh;
@@ -67,7 +67,7 @@ footer a{
     }
     .textChamativo{
         font-weight: 900;
-        font-size: 30px;
+        font-size: 60px;
         line-height: 1;
         color: rgb(238, 238, 238);
         text-shadow: black 0.1em 0.1em 0.2em;
@@ -81,7 +81,7 @@ footer a{
     header{
         background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
         background-repeat: no-repeat;
-        background-position: left;
+        background-position: center;
         background-attachment: scroll;
         background-size: cover;
         height: 90vh;
@@ -91,7 +91,7 @@ footer a{
     }
     .textChamativo{
         font-weight: 900;
-        font-size: 30px;
+        font-size: 60px;
         line-height: 1;
         color: rgb(238, 238, 238);
         text-shadow: black 0.1em 0.1em 0.2em;
@@ -116,7 +116,7 @@ footer a{
     }
     .textChamativo{
         font-weight: 900;
-        font-size: 40px;
+        font-size: 60px;
         line-height: 1;
         color: rgb(238, 238, 238);
         text-shadow: black 0.1em 0.1em 0.2em;
