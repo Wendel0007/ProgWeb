@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+::selection {
+    background: #ffd035;
+    color: #fff;
+}
+  ::-moz-selection {
+    background: #ffd035;
+    color: #fff;
+}
+
+.sectionAjust{
+    padding: 4rem 1rem 4rem 1rem;
+}
+#section2{
+    background-color: #f0f0f0;
+}
+.leads{
+    color: #fff;
+}
+footer{
+    background-color: #818181;
+    color: rgb(218, 218, 218);
+}
+@media (max-width: 576px) { 
+    nav{
+        background-color: rgb(0, 0, 0);
+    }
+    header{
+        background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        padding-top: 4rem;
+        height: 80vh;
+    }
+    .textChamativo{
+        padding-top: 10rem;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 1;
+        color: rgb(238, 238, 238);
+        text-shadow: black 0.1em 0.1em 0.2em;
+        padding: 0 1rem 0 1rem; 
+    }
+}
+@media (min-width: 576px) { 
+    nav{
+        background-color: rgb(0, 0, 0);
+    }
+    header{
+        background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        padding-top: 4rem;
+        height: 80vh;
+    }
+    .textChamativo{
+        padding-top: 10rem;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 1;
+        color: rgb(238, 238, 238);
+        text-shadow: black 0.1em 0.1em 0.2em;
+        padding: 0 1rem 0 1rem; 
+    }
+}
+
+@media (min-width: 768px) { 
+    nav{
+        background-color: rgb(26, 26, 26);
+    }
+    header{
+        background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 80vh;
+    }
+    .textChamativo{
+        padding-top: 14rem;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1;
+        color: rgb(238, 238, 238);
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+}
+nav{
+    background-color: rgb(68, 68, 68);
+}
+header{
+    background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 80vh;
+}
+.textChamativo{
+    padding-top: 12rem;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 1;
+    color: rgb(238, 238, 238);
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+@media (min-width: 992px) { 
+    nav{
+        background-color: rgb(255, 255, 255);
+    }
+    header{
+        background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 80vh;
+    }
+    .textChamativo{
+        padding-top: 14rem;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 1;
+        color: rgb(238, 238, 238);
+        text-shadow: black 0.1em 0.1em 0.2em
+    }
+}
+
+@media (min-width: 1200px) { 
+    nav{
+        background-color: rgb(255, 255, 255);
+    }
+    header{
+        background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 80vh;
+    }
+    .textChamativo{
+        padding-top: 14rem;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 1;
+        color: rgb(238, 238, 238);
+        text-shadow: black 0.1em 0.1em 0.2em
+    }
+}
