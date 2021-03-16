@@ -12,7 +12,10 @@
     background: #ffd035;
     color: #fff;
 }
-
+.divsecajust{
+    background-repeat: no-repeat;
+    height: 50vh;
+}
 .sectionAjust{
     padding: 6rem 2rem 6rem 2rem;
 }
@@ -25,6 +28,19 @@
 #section2 ol{
     display: flex;
     justify-content: center;
+}
+.containerAjuste{
+    padding: 0;
+    background-image: url(../assets/img/Divimg.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
 }
 footer{
     background-color: #818181;
@@ -105,29 +121,6 @@ footer a{
         color: rgb(238, 238, 238);
         text-shadow: black 0.1em 0.1em 0.2em;
     }
-}
-nav{
-    background-color: rgb(68, 68, 68);
-}
-header{
-    padding-top: 4rem;
-    background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
-    height: 90vh;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    
-}
-.textChamativo{
-    font-weight: 900;
-    font-size: 70px;
-    line-height: 1;
-    color: rgb(238, 238, 238);
-    text-shadow: black 0.1em 0.1em 0.2em;
 }
 @media (min-width: 992px) { 
     nav{
