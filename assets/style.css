@@ -8,13 +8,13 @@
     background: #ffd035;
     color: #fff;
 }
-  ::-moz-selection {
+::-moz-selection {
     background: #ffd035;
     color: #fff;
 }
 
 .sectionAjust{
-    padding: 4rem 1rem 4rem 1rem;
+    padding: 6rem 2rem 6rem 2rem;
 }
 #section2, #section4{
     background-color: #f0f0f0;
@@ -36,13 +36,14 @@ footer{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        padding-top: 4rem;
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
     .textChamativo{
-        padding-top: 6rem;
-        font-weight: 800;
-        font-size: 40px;
+        font-weight: 900;
+        font-size: 30px;
         line-height: 1;
         color: rgb(238, 238, 238);
         text-shadow: black 0.1em 0.1em 0.2em;
@@ -59,13 +60,14 @@ footer{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        padding-top: 4rem;
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
     .textChamativo{
-        padding-top: 6rem;
-        font-weight: 800;
-        font-size: 40px;
+        font-weight: 900;
+        font-size: 30px;
         line-height: 1;
         color: rgb(238, 238, 238);
         text-shadow: black 0.1em 0.1em 0.2em;
@@ -83,10 +85,12 @@ footer{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
     .textChamativo{
-        padding-top: 14rem;
         font-weight: 900;
         font-size: 40px;
         line-height: 1;
@@ -98,35 +102,42 @@ nav{
     background-color: rgb(68, 68, 68);
 }
 header{
+    padding-top: 4rem;
     background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
 }
 .textChamativo{
-    padding-top: 12rem;
     font-weight: 900;
     font-size: 70px;
     line-height: 1;
     color: rgb(238, 238, 238);
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 @media (min-width: 992px) { 
     nav{
         background-color: rgb(255, 255, 255);
     }
     header{
+        padding-top: 4rem;
         background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
     .textChamativo{
-        padding-top: 14rem;
         font-weight: 900;
         font-size: 80px;
         line-height: 1;
@@ -140,15 +151,18 @@ header{
         background-color: rgb(255, 255, 255);
     }
     header{
+        padding-top: 4rem;
         background-image: url(../assets/img/cyber-security-2296269_1920.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
     .textChamativo{
-        padding-top: 14rem;
         font-weight: 900;
         font-size: 80px;
         line-height: 1;
