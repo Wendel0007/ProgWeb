@@ -12,12 +12,18 @@
     background: #ffd035;
     color: #fff;
 }
+nav a{
+    color: rgb(26, 26, 26);
+}
+nav a:hover{
+    color: rgb(42, 255, 70);
+}
 .divsecajust{
     background-repeat: no-repeat;
     height: 50vh;
 }
 .sectionAjust{
-    padding: 6rem 2rem 6rem 2rem;
+    padding: 8rem 2rem 4rem 2rem;
 }
 #section2, #section4{
     background-color: #f0f0f0;
@@ -42,6 +48,12 @@
     justify-content: center;
     
 }
+.textdiv{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1;
+    color:  rgb(26, 26, 26);
+}
 footer{
     background-color: #818181;
     color: rgb(218, 218, 218);
@@ -60,7 +72,7 @@ footer a{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: center; 
         justify-content: center;
@@ -84,7 +96,7 @@ footer a{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: center; 
         justify-content: center;
@@ -109,7 +121,7 @@ footer a{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: center; 
         justify-content: center;
@@ -133,7 +145,7 @@ footer a{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: center; 
         justify-content: center;
@@ -158,7 +170,7 @@ footer a{
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: center; 
         justify-content: center;
