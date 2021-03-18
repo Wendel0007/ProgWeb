@@ -48,6 +48,9 @@ nav a:hover{
     justify-content: center;
     
 }
+#section4 h2{
+    padding-bottom: 2rem;
+}
 .textdiv{
     font-weight: 600;
     font-size: 50px;
