@@ -40,10 +40,6 @@ html{
 i{
     color: #fff;
 }
-.list-group-item{
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
 .list-group-item:hover{
     background-color: #181818;
     color: #fff;
@@ -52,9 +48,6 @@ i{
 hr{
     background-color: #fff
 }
-.ajusteslistgrup{
-    width: 280px;
-}
 .ajustpesq{
     background-color: #181818; 
     width: 600px;
@@ -62,10 +55,6 @@ hr{
 @media (max-width: 576px){
     .containerAjuste{
         padding-top: 11rem;
-    }
-    .ajusteslistgrup{
-        width: 150px;
-        font-size: 12px;
     }
     .ajustpesq{
         background-color: #181818; 
